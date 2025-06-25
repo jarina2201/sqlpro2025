@@ -6,6 +6,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 public class SQlJDBC {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
@@ -41,6 +42,16 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	}
 	
 	//7.Close the database connection
+	
+	
+
+	int a=10;
+	int b=20;
+	
+	int c=a+b;
+	System.out.println(c);
+	
+	
 	
 	
 	
