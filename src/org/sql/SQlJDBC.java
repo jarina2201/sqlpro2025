@@ -41,7 +41,12 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	}
 	
 	//7.Close the database connection
-	
+	try {
+		con.close();
+	} catch (SQLException e) {
+		
+		e.printStackTrace();
+	}
 	
 	
 }
